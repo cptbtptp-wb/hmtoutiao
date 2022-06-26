@@ -1,7 +1,6 @@
 <template>
 <div>
-    111
-    <router-view></router-view>
+    我的
 </div>
 </template>
 
@@ -19,6 +18,6 @@ export default {
 }
 </script>
 
-<style scoped lang='less'>
+<style scoped>
 
 </style>
