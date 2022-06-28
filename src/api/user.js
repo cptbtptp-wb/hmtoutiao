@@ -1,4 +1,7 @@
 import request from '@/utils/request'
+// vue组件文件里才能同this.￥store，在js中没有this
+import store from '@/store'
+
 // 获取短信验证码
 export const getSmsCode = (mobile) => {
   return request({
@@ -14,6 +17,16 @@ export const login = ({ mobile, code }) => { // 解构赋值
     data: {
       mobile,
       code
+    }
+  })
+}
+
+// 获取用户个人资料
+export const getUserInfo = () => {
+  return request({
+    url: 'user',
+    headers: {
+      Authorization: 'Bearer ' + store.state.user.token
     }
   })
 }

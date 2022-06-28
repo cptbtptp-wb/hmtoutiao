@@ -24,7 +24,7 @@ const routes = [
         path: 'question', component: Question
       },
       {
-        path: 'my', component: My
+        path: 'my', component: My, name: 'my'
       }
     ]
   },

@@ -6,7 +6,13 @@ import Vant from 'vant'
 // import 'vant/lib/index.css'
 import 'vant/lib/index.less'
 import 'amfe-flexible'
-import '@/styles/icon.less'
+// import '@/styles/icon.less'
+// import '@/styles/reset.less'
+import '@/styles/index.less'
+
+// 注册全局
+import MyIcon from '@/components/MyIcon.vue'
+Vue.component('MyIcon', MyIcon)
 
 Vue.use(Vant)
 
