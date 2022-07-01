@@ -59,7 +59,7 @@ export default {
   created () { },
   data () {
     return {
-      mobile: '13911111111',
+      mobile: '13922222222',
       code: '246810',
       time: 5 * 1000,
       isCountDownShow: false // 默认不显示倒计时效果
