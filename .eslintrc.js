@@ -17,6 +17,8 @@ module.exports = {
     'no-unused-vars': 'off',
     'no-undef': 'off',
     'vue/no-mutating-props': 0,
-    'no-const-assign': 'off'
+    'no-const-assign': 'off',
+    'vue/no-multiple-template-root': 'off',
+    'vue/no-dupe-keys': 'off'
   }
 }

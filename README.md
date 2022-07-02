@@ -41,8 +41,6 @@ var arr = [
         arr.filter((item) => arr1.every((item1) => item1.id !== item.id))
       )
 
-
-
 // 给页面上所有的元素绑定滚动事件
 // 只要谁滚动 就打印出来
 const list = document.querySelectorAll('\*')
@@ -51,3 +49,15 @@ item.onscroll = function (e) {
 console.log(e.target)
 }
 })
+
+<!-- es6默认值写法 -->
+
+function fn({a=0,b=0}){
+return a+b
+}
+fn({a=1,b=1})
+
+
+<!-- 路由传参 -->
+url?id=100  $route.query.id
+url/100     $route.parmas.id （推荐）
