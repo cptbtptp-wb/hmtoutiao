@@ -19,6 +19,7 @@ module.exports = {
     'vue/no-mutating-props': 0,
     'no-const-assign': 'off',
     'vue/no-multiple-template-root': 'off',
-    'vue/no-dupe-keys': 'off'
+    'vue/no-dupe-keys': 'off',
+    camelcase: 'off'
   }
 }
